@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Formulário de participação do Instituto Conecta 50+.">
+    <title>Participe | Instituto Conecta 50+</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-container">
+            <a class="brand" href="index.html" aria-label="Página inicial do Instituto Conecta 50+"><img src="imagens/logo.jpg" alt="Logo do Instituto Conecta 50+"></a>
+            <input class="menu-toggle-input" type="checkbox" id="menu-toggle">
+            <label class="menu-toggle" for="menu-toggle" aria-label="Abrir ou fechar menu de navegação"><span></span><span></span><span></span></label>
+            <nav class="main-nav" aria-label="Navegação principal">
+                <ul class="nav-menu"><li><a href="index.html">Início</a></li><li class="dropdown"><a href="projetos.html">Projetos</a><ul class="dropdown-menu"><li><a href="projetos.html#inclusao-digital">Inclusão Digital</a></li><li><a href="projetos.html#capacitacao">Capacitação Profissional</a></li><li><a href="projetos.html#empregabilidade">Empregabilidade 50+</a></li></ul></li><li><a href="cadastro.html" aria-current="page">Quero Participar</a></li></ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container narrow-container"><span class="section-kicker">Faça parte</span><h1>Participe do Instituto Conecta 50+</h1><p>Preencha o formulário para demonstrar seu interesse em participar das ações do projeto.</p></div>
+        </section>
+
+        <section class="section">
+            <div class="container form-layout">
+                <div class="form-intro"><span class="badge badge-primary">Cadastro</span><h2>Quer fazer parte?</h2><p>Informe seus dados e selecione como gostaria de participar. Nesta etapa acadêmica, o formulário utiliza validação nativa do HTML5.</p><div class="alert alert-info" role="note"><strong>Acessibilidade:</strong> campos possuem rótulos associados e foco visual para facilitar a navegação.</div></div>
+                <form class="participation-form" action="#" method="post">
+                    <fieldset><legend>Dados pessoais</legend>
+                        <div class="form-group"><label for="nome">Nome completo:</label><input class="form-control" type="text" id="nome" name="nome" minlength="3" autocomplete="name" required></div>
+                        <div class="form-group"><label for="email">E-mail:</label><input class="form-control" type="email" id="email" name="email" autocomplete="email" required></div>
+                        <div class="form-group"><label for="cpf">CPF:</label><input class="form-control" type="text" id="cpf" name="cpf" inputmode="numeric" autocomplete="off" pattern="[0-9]{3}\.[0-9]{3}\.[0-9]{3}-[0-9]{2}" placeholder="000.000.000-00" title="Informe o CPF no formato 000.000.000-00." required></div>
+                        <div class="form-group"><label for="telefone">Telefone:</label><input class="form-control" type="tel" id="telefone" name="telefone" autocomplete="tel" pattern="\([0-9]{2}\) [0-9]{5}-[0-9]{4}" placeholder="(11) 99999-9999" title="Informe o telefone no formato (11) 99999-9999." required></div>
+                        <div class="form-group"><label for="nascimento">Data de nascimento:</label><input class="form-control" type="date" id="nascimento" name="nascimento" autocomplete="bday" required></div>
+                    </fieldset>
+                    <fieldset><legend>Endereço</legend>
+                        <div class="form-group"><label for="cep">CEP:</label><input class="form-control" type="text" id="cep" name="cep" inputmode="numeric" autocomplete="postal-code" pattern="[0-9]{5}-[0-9]{3}" placeholder="00000-000" title="Informe o CEP no formato 00000-000." required></div>
+                        <div class="form-group"><label for="endereco">Endereço:</label><input class="form-control" type="text" id="endereco" name="endereco" autocomplete="address-line1" required></div>
+                        <div class="form-group"><label for="numero">Número:</label><input class="form-control" type="text" id="numero" name="numero" required></div>
+                        <div class="form-group"><label for="cidade">Cidade:</label><input class="form-control" type="text" id="cidade" name="cidade" autocomplete="address-level2" required></div>
+                        <div class="form-group"><label for="estado">Estado:</label><select class="form-control" id="estado" name="estado" autocomplete="address-level1" required><option value="">Selecione</option><option value="AC">Acre</option><option value="AL">Alagoas</option><option value="AP">Amapá</option><option value="AM">Amazonas</option><option value="BA">Bahia</option><option value="CE">Ceará</option><option value="DF">Distrito Federal</option><option value="ES">Espírito Santo</option><option value="GO">Goiás</option><option value="MA">Maranhão</option><option value="MT">Mato Grosso</option><option value="MS">Mato Grosso do Sul</option><option value="MG">Minas Gerais</option><option value="PA">Pará</option><option value="PB">Paraíba</option><option value="PR">Paraná</option><option value="PE">Pernambuco</option><option value="PI">Piauí</option><option value="RJ">Rio de Janeiro</option><option value="RN">Rio Grande do Norte</option><option value="RS">Rio Grande do Sul</option><option value="RO">Rondônia</option><option value="RR">Roraima</option><option value="SC">Santa Catarina</option><option value="SP">São Paulo</option><option value="SE">Sergipe</option><option value="TO">Tocantins</option></select></div>
+                    </fieldset>
+                    <fieldset><legend>Interesse e participação</legend><p class="fieldset-description">Como você gostaria de participar?</p>
+                        <div class="check-group"><label><input type="checkbox" name="interesse" value="voluntario"> Voluntariado</label><label><input type="checkbox" name="interesse" value="apoiador"> Apoio ao projeto</label><label><input type="checkbox" name="interesse" value="capacitacao"> Participação em capacitações</label></div>
+                        <div class="form-group"><label for="mensagem">Mensagem ou observações:</label><textarea class="form-control" id="mensagem" name="mensagem" rows="6"></textarea></div>
+                    </fieldset>
+                    <fieldset><legend>Consentimento</legend><div class="consent"><input type="checkbox" id="consentimento" name="consentimento" value="sim" required><label for="consentimento">Autorizo o uso dos dados informados para fins de contato relacionados às atividades do Instituto Conecta 50+.</label></div></fieldset>
+                    <div class="form-actions"><button class="button button-primary" type="submit">Enviar cadastro</button><button class="button button-secondary" type="reset">Limpar formulário</button></div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="site-footer"><div class="container footer-content"><p>&copy; 2026 Instituto Conecta 50+. Projeto acadêmico em HTML5 e CSS3.</p><a href="index.html">Voltar para o início</a></div></footer>
+</body>
+</html>
