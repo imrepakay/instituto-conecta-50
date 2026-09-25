@@ -74,4 +74,8 @@ Como o projeto utiliza a pasta `html/`, o `index.html` deve carregar:
 Nesta implementação, as rotas são mantidas no hash (`#/projetos` e `#/cadastro`) para funcionar de forma previsível no Live Server sem exigir configuração de servidor. O `pushState()` atualiza o histórico e `popstate`/`hashchange` re-renderizam a interface.
 ## Próximas etapas
 
-1. Git/GitHub, deploy e infraestrutura.
+## Estratégia de versionamento
+
+O projeto utiliza GitFlow para organizar o desenvolvimento por meio das branches master, develop e feature.
+
+
