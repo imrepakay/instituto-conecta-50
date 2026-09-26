@@ -1,0 +1,18 @@
+{
+  "name": "instituto-conecta-50",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Projeto acadêmico de desenvolvimento Front-End do **Instituto Conecta 50+**, uma iniciativa de impacto social voltada à inclusão digital, capacitação profissional e empregabilidade para pessoas com 50 anos ou mais.",
+  "license": "ISC",
+  "author": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "sharp": "^0.35.4",
+    "vite": "^8.3.1"
+  }
+}
