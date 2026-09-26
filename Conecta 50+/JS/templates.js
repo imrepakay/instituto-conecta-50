@@ -2,21 +2,21 @@ const projetos = [
     {
         id: "inclusao-digital",
         titulo: "Inclusão Digital",
-        imagem: "../imagens/inclusao-digital.jpg",
+        imagem: "../imagens-webp/inclusao-digital.webp",
         descricao: "Cursos e oficinas para desenvolver autonomia no uso de tecnologias digitais.",
         objetivo: "Promover autonomia e segurança no uso de computadores, celulares e serviços digitais."
     },
     {
         id: "capacitacao",
         titulo: "Capacitação Profissional",
-        imagem: "../imagens/capacitacao.jpg",
+        imagem: "../imagens-webp/capacitacao.webp",
         descricao: "Formação prática para ampliar competências e preparar participantes para novas oportunidades.",
         objetivo: "Desenvolver competências digitais e profissionais alinhadas às oportunidades atuais."
     },
     {
         id: "empregabilidade",
         titulo: "Empregabilidade 50+",
-        imagem: "../imagens/empregabilidade.jpg",
+        imagem: "../imagens-webp/empregabilidade.webp",
         descricao: "Apoio para currículo, busca de oportunidades e preparação para processos seletivos.",
         objetivo: "Apoiar a conexão entre pessoas 50+ capacitadas e oportunidades de trabalho."
     }
